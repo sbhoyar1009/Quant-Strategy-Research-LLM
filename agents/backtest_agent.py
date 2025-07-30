@@ -7,7 +7,7 @@ import numpy as np
 class BacktestAgent:
     def __init__(self, strategy_mcp, initial_cash: float = 100000, position_size: float = 1.0, slippage: float = 0.001, transaction_cost: float = 0.0005):
         self.symbol = strategy_mcp.symbol
-        self.start_date = "2020-01-01"
+        self.start_date = "2015-01-01"
         self.end_date = datetime.now().strftime("%Y-%m-%d")
         self.initial_cash = initial_cash
         self.position_size = position_size  # Fraction of cash to use per trade (1.0 = all-in)

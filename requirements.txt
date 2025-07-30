@@ -5,10 +5,16 @@ yfinance
 backtrader
 pandas
 numpy
-python-dotenv
 tinydb
 tqdm
 ta
 matplotlib
 plotly
 jupyter
+fastapi
+uvicorn
+pydantic
+pandas
+tabulate
+python-dotenv
+google.generativeai
